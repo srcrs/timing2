@@ -25,7 +25,7 @@ public class App
                 Thread.sleep(2000);
                 driver.get(args[n]);
                 Thread.sleep(3000);
-                driver.findElement(By.xpath("//*[@id=\"bilibiliPlayer\"]/div[1]/div[1]/div[9]/video")).click();
+                driver.findElement(By.xpath("//*[@id="bilibiliPlayer"]/div[1]/div[1]/div[10]/div[2]/div[2]/div[1]/div[1]/button[1]")).click();
                 //观看视频时间随机。
                 Thread.sleep((20+random.nextInt(50))*1000);
                 driver.close();
